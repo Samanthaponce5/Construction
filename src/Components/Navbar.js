@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom"
 import React from 'react'
+import {VscThreeBars} from 'react-icons/vsc'
 
 class Navbar extends React.Component{
 
@@ -7,14 +8,18 @@ class Navbar extends React.Component{
 
         return(
             <nav>
+                <input type='checkbox' id='check'/>
+                <label for='check' className='checkbtn'>
+                   <VscThreeBars/>
+                </label>
+                <span className='logo'>LOGO</span>
+
                 <ul>
-                    <Link to='/'><li>Home</li></Link>
-                    <Link to='/about'><li>About</li></Link>
-                    <Link to='/services'><li>Services</li></Link>
-                    <Link to='/contact'><li>Contact</li></Link>
+                    <li><Link className='active' to='/'>Home</Link></li>
+                    <li><Link to='/about'>About</Link></li>
+                    <li><Link to='/services'>Services</Link></li>
+                    <li><Link to='/contact'>Contact</Link></li>
                 </ul>
-
-
 
             </nav>
         )
