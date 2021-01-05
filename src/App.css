@@ -5,6 +5,10 @@
   list-style: none;
   box-sizing: border-box;
 }
+body{
+  background-color: rgb(140, 204, 151);
+
+}
 
 nav{
   background-color: rgba(0, 132, 255, 0.767);
