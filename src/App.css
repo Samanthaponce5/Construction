@@ -1,17 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
 *{
   padding: 0;
   margin: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: 'Squada One', cursive;
+
 }
 body{
   background-color: rgb(140, 204, 151);
+  color: white;
+
 
 }
-span{
-  color: white;
-}
+
 nav{
   background-color: rgba(0, 132, 255, 0.767);
   width: 100%;
