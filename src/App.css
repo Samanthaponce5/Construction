@@ -9,7 +9,9 @@ body{
   background-color: rgb(140, 204, 151);
 
 }
-
+span{
+  color: white;
+}
 nav{
   background-color: rgba(0, 132, 255, 0.767);
   width: 100%;
