@@ -15,11 +15,11 @@ function App() {
       <Navbar/>
       <Switch>
 
-        <Route path='/about'><About/></Route>
+        {/* <Route path='/about'><About/></Route>
 
         <Route path='/services'><Services/></Route>
 
-        <Route path='/contact'><Contact/></Route>
+        <Route path='/contact'><Contact/></Route> */}
 
         <Route path='/'><Home/></Route>
 
